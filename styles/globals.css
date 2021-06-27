@@ -7,10 +7,36 @@ body {
 }
 
 a {
-  color: inherit;
+  color: blue;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+blockquote {
+  margin: 0.5rem 0px;
+  padding-left: 1rem;
+  border-left: 4px solid green;
+}
+
+form {
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
